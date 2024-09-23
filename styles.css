@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+    /* padding: 0px; */
+    /* font-family: "Exo 2", system-ui; */
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color:#f9f9f9; */
+    align-items: center;
+    /* background-image: linear-gradient(black green); */
+    background-image: linear-gradient(to right, rgb(243, 228, 228), rgb(189, 89, 32));
+
+}
+
+.listitem {
+
+    display: inline-block;
+    margin: 30px;
+
+    list-style: none;
+
+}
+
+.logo {
+    width: 100px;
+
+}
+
+.list {
+    font-weight: 600;
+    font-size: 15px;
+    /* justify-content: space-between; */
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.home-content {
+    margin: 13% 0px 0px 8%;
+
+}
+
+#username {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lname {
+    color: rgb(17, 87, 63);
+}
+
+#userdetails {
+    line-height: 1.2;
+}
+
+#download {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.home-image {
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+
+}
+
+.group1 {
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home-image:hover #shape {
+    bottom: 80px;
+}
+
+.home-image:hover #girl {
+    left: 30%;
+}
+
+#about {
+    margin: 30% 8% 0px 8%;
+}
+
+.SectionHead {
+    text-align: center;
+    /* margin-top: 460px; */
+}
+
+#mainhHead {
+    font-size: 30px;
+
+}
+
+#SubHead {
+    font-size: 20px;
+    color: rgb(61, 144, 61);
+}
+
+.AboutBody {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.img1 {
+    width: 80%;
+}
+
+.aboutContent {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.information {
+    margin-top: 1.3rem;
+}
+
+.infobox>span {
+    margin-left: 1rem;
+}
+
+.infobox {
+
+    margin-bottom: 10px;
+}
+
+#skill {
+    margin: 8% 8% 0px 8%;
+
+}
+
+.skillcontent {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+
+}
+
+.bars {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+
+.mainhHead, .barpercentage {
+    font-weight: 500px;
+    font-size: 1.3rem;
+}
+
+.basebar {
+    /* border: solid; */
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(28, 27, 25);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+.htmlbar {
+    width: 89%;
+    background-color: orange;
+}
+
+.cssbar {
+    width: 82%;
+    background-color: orange;
+}
+
+.jsbar {
+    width: 71%;
+    background-color: orange;
+}
+
+.reactbar {
+    width: 85%;
+    background-color: orange;
+}
+
+#contact {
+
+    margin: 8% 8% 0px 8%;
+    ;
+
+}
+
+.iconcollection {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+
+
+}
+
+.icon {
+
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    /* border: solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: white;
+
+
+}
+
+/* inside icon */
+.brands {
+    color: black;
+    font-size: 2rem;
+}
+
+.icon:hover {
+
+    background-image: linear-gradient(rgb(121, 121, 28), orange);
+    /* animations */
+    animation: rotate 3s;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-380deg);
+    }
+}
+
+.footer {
+    margin-top: 185px;
+    text-align: center;
+
+
+
+}
+
+.coppy {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 25px;
+}
+
+.uparrow {
+    float: right;
+    margin: -210px 10px 60px 0px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(189, 89, 32) rgb(236, 247, 248);
+    
+    
+
+}
